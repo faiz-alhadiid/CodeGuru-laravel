@@ -56,10 +56,6 @@ class Kernel extends HttpKernel
         'can' => \Illuminate\Auth\Middleware\Authorize::class,
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
-<<<<<<< Updated upstream
         'authenticated' => \App\Http\Middleware\AuthenticatedMiddleware::class
-=======
-        'authenticated' => \App\Http\middleware\AuthenticatedMiddleware::class
->>>>>>> Stashed changes
     ];
 }

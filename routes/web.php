@@ -17,21 +17,13 @@ Route::get('/', function () {
 
 Auth::routes();
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 Route::get('/home', function () {
     return view('home');
 });
 
 Route::get('/courses', function () {
     return view('courses');
-<<<<<<< Updated upstream
 })-> middleware ('authenticated') ;
-=======
-}) -> middleware ('authenticated'); 
->>>>>>> Stashed changes
 
 Route::get('/about', function () {
     return view('about');
@@ -47,7 +39,7 @@ Route::get('/contact', function () {
 
 Route::get('/htmlcss', function () {
     return view('htmlcss');
-<<<<<<< Updated upstream
+
 })-> middleware ('authenticated') ;
 
 Route::get('/java', function () {
@@ -57,14 +49,3 @@ Route::get('/java', function () {
 Route::get('/cpp', function () {
     return view('cpp');
 })-> middleware ('authenticated') ;
-=======
-})-> middleware ('authenticated');
-
-Route::get('/java', function () {
-    return view('java');
-})-> middleware ('authenticated');
-
-Route::get('/cpp', function () {
-    return view('cpp');
-})-> middleware ('authenticated');
->>>>>>> Stashed changes
