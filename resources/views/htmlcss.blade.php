@@ -62,7 +62,7 @@
 <div class="container">
 	<div class="row header">
 		<div class="logo navbar-left">
-			<h1><a href="index.html"><img class="kiri" src="images/logo-code.jpg"/></a></h1>
+			<h1><a href="{{ url('/home') }}"><img class="kiri" src="images/logo-code.jpg"/></a></h1>
 		</div>
 		<div class="h_search navbar-right">
 			<form>

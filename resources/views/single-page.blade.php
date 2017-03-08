@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Codeguru Interactive Learning</title>
+<title>Codeguru Interactive Learning | Single-Page</title>
 <!-- Bootstrap -->
 <link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -16,49 +16,12 @@
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<!-- start slider -->
-<link href="css/slider.css" rel="stylesheet" type="text/css" media="all" />
-<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
-<script type="text/javascript" src="js/jquery.cslider.js"></script>
-	<script type="text/javascript">
-			$(function() {
-
-				$('#da-slider').cslider({
-					autoplay : true,
-					bgincrement : 450
-				});
-
-			});
-		</script>
-<!-- Owl Carousel Assets -->
-<link href="css/owl.carousel.css" rel="stylesheet">
-<script src="js/owl.carousel.js"></script>
-		<script>
-			$(document).ready(function() {
-
-				$("#owl-demo").owlCarousel({
-					items : 4,
-					lazyLoad : true,
-					autoPlay : true,
-					navigation : true,
-					navigationText : ["", ""],
-					rewindNav : false,
-					scrollPerPage : false,
-					pagination : false,
-					paginationNumbers : false,
-				});
-
-			});
-		</script>
-		<!-- //Owl Carousel Assets -->
-<!--font-Awesome----->
+<!--font-Awesome-->
    	<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
 <!--font-Awesome-->
 </head>
-
-
 <body>
-<div class="header_bg">
+<div class="header_bg1">
 <div class="container">
 	<div class="row header">
 		<div class="logo navbar-left">
@@ -72,9 +35,6 @@
 		</div>
 		<div class="clearfix"></div>
 	</div>
-</div>
-</div>
-<div class="container">
 	<div class="row h_menu">
 		<nav class="navbar navbar-default navbar-left" role="navigation">
 		    <!-- Brand and toggle get grouped for better mobile display -->
@@ -87,9 +47,9 @@
 		      </button>
 		    </div>
 		    <!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li><a href="{{ url('/home') }}">Home</a></li>
+                <li class="active"><a href="{{ url('/home') }}">Home</a></li>
                 <li><a href="{{ url('/courses') }}">Courses</a></li>
                 <li><a href="{{ url('/about') }}">About</a></li>
                 <li><a href="{{ url('/blog') }}">Blog</a></li>
@@ -98,7 +58,7 @@
             </div><!-- /.navbar-collapse -->
 		    <!-- start soc_icons -->
 		</nav>
-		<div class="soc_icons navbar-right">
+        <div class="soc_icons navbar-right">
             <ul class="nav navbar-nav">
             @if (Route::has('login'))
             @if (Auth::check())
@@ -116,42 +76,20 @@
             </ul>   
         </div>
 	</div>
+	<div class="clearfix"></div>
+</div>
 </div>
 <div class="main_bg"><!-- start main -->
 	<div class="container">
 		<div class="about details row">
-			<h2>Bahasa Pemrograman Web dengan HTML5 dan CSS</h2>
-			<!--<img src="images/det_pic.jpg" alt="" class="img-responsive"/>-->
-			<h4>Luaran yang diharapkan</h4>
-			<p class="para">Pada akhir pembelajaran ini, Anda akan mempelajari dasar-dasar HTML dan CSS dan bagaimana struktur dan gaya halaman web Anda.</p>
-			<h4>Mengapa harus mempelajari HTML5 dan CSS?</h4>
-			<p class="para">Segala sesuatu yang Anda lihat di situs web adalah hasil dari kombinasi HTML dan CSS. Dengan dua bahasa ini, Anda akan memiliki keterampilan yang Anda butuhkan untuk membawa desain website Anda untuk hidup.</p>
-			<a href="#" class="fa-btn btn-1 btn-1e">Start Course</a>
+			<h2>Lorem  use a passage of Lorem Ipsum</h2>
+		<!--	<img src="images/det_pic.jpg" alt="" class="img-responsive"/> -->
+			<p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<p class="para">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words. </p>
+			<a href="#" class="fa-btn btn-1 btn-1e">read more</a>
 		</div>
 	</div>
 </div><!-- end main -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="footer_bg"><!-- start footer -->
 	<div class="container">
 		<div class="row  footer">
@@ -162,5 +100,4 @@
 	</div>
 </div>
 </body>
-
 </html>

@@ -49,3 +49,7 @@ Route::get('/java', function () {
 Route::get('/cpp', function () {
     return view('cpp');
 })-> middleware ('authenticated') ;
+
+Route::get('/single-page', function () {
+    return view('single-page');
+});
