@@ -17,15 +17,13 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
-
-Route::get('/index', function () {
-    return view('index');
+Route::get('/home', function () {
+    return view('home');
 });
 
 Route::get('/courses', function () {
     return view('courses');
-});
+})-> middleware ('authenticated') ;
 
 Route::get('/about', function () {
     return view('about');
@@ -41,12 +39,12 @@ Route::get('/contact', function () {
 
 Route::get('/htmlcss', function () {
     return view('htmlcss');
-});
+})-> middleware ('authenticated') ;
 
 Route::get('/java', function () {
     return view('java');
-});
+})-> middleware ('authenticated') ;
 
 Route::get('/cpp', function () {
     return view('cpp');
-});
+})-> middleware ('authenticated') ;

@@ -150,21 +150,21 @@
         <div class="main row">
             <div class="col-md-3 images_1_of_4 text-center">
                 <span class="bg"><img class="logo11" src="images/java-logo-vector.png"/></span>
-                <h4><a href="#">Java</a></h4>
+                <h4><a>Java</a></h4>
                 <p class="para">Belajar bahasa pemrograman java</p>
-                <a href="belajar-java.html" class="fa-btn btn-1 btn-1e">read more</a>
+                <a href="{{ url('java') }}" class="fa-btn btn-1 btn-1e">read more</a>
             </div>
             <div class="col-md-3 images_1_of_4 bg1 text-center">
                 <span class="bg"><img class="logo11" src="images/html5-logo.jpg"/></span>
-                <h4><a href="#">HTML & CSS</a></h4>
+                <h4><a>HTML & CSS</a></h4>
                 <p class="para">Belajar pemrograman web dengan menggunakan HTML5 dan CSS</p>
-                <a href="belajar-htmlcss.html" class="fa-btn btn-1 btn-1e">read more</a>
+                <a href="{{ url('htmlcss') }}" class="fa-btn btn-1 btn-1e">read more</a>
             </div>
             <div class="col-md-3 images_1_of_4 bg1 text-center">
                 <span class="bg"><img class="logo11" src="images/logo-cpp.png"/></span>
-                <h4><a href="#">C++</a></h4>
+                <h4><a>C++</a></h4>
                 <p class="para">Belajar bahasa pemrograman C++</p>
-                <a href="single-page.html" class="fa-btn btn-1 btn-1e">read more</a>
+                <a href="{{ url('cpp') }}" class="fa-btn btn-1 btn-1e">read more</a>
             </div>  
             <!--    
             <div class="col-md-3 images_1_of_4 bg1 text-center">
