@@ -156,7 +156,11 @@
             </div>
             <div class="col-md-3 images_1_of_4 bg1 text-center">
                 <span class="bg"><img class="logo11" src="images/html5-logo.jpg"/></span>
+<<<<<<< Updated upstream
                 <h4><a>HTML & CSS</a></h4>
+=======
+                <h4><a>HTML & CSS</a>/h4>
+>>>>>>> Stashed changes
                 <p class="para">Belajar pemrograman web dengan menggunakan HTML5 dan CSS</p>
                 <a href="{{ url('htmlcss') }}" class="fa-btn btn-1 btn-1e">read more</a>
             </div>

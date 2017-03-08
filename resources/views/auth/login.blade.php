@@ -74,4 +74,9 @@
         </div>
     </div>
 </div>
+<<<<<<< Updated upstream
+=======
+</body>
+</html>
+>>>>>>> Stashed changes
 @endsection
