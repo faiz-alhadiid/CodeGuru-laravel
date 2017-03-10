@@ -53,3 +53,17 @@ Route::get('/cpp', function () {
 Route::get('/single-page', function () {
     return view('single-page');
 });
+
+Route::get('/index', 'CrudController@index');
+
+Route::get('/add', 'CrudController@create');
+
+Route::post('/store', 'CrudController@store');
+
+Route::get('/read/{id}', 'CrudController@show');
+
+Route::get('/edit/{id}', 'CrudController@edit');
+
+Route::post('/update/{id}', 'CrudController@update');
+
+Route::get('/delete/{id}', 'CrudController@destroy');

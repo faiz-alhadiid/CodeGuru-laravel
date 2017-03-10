@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.5.1
--- http://www.phpmyadmin.net
+-- version 4.6.5.2
+-- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 08, 2017 at 11:21 AM
--- Server version: 10.1.19-MariaDB
--- PHP Version: 5.6.28
+-- Generation Time: Mar 10, 2017 at 02:36 PM
+-- Server version: 10.1.21-MariaDB
+-- PHP Version: 5.6.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -23,6 +23,25 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `crud`
+--
+
+CREATE TABLE `crud` (
+  `id` int(10) UNSIGNED NOT NULL,
+  `judul` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `isi` text COLLATE utf8mb4_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `crud`
+--
+
+INSERT INTO `crud` (`id`, `judul`, `isi`) VALUES
+(9, 'test', 'zxcvzxcvzxcvzxcv');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `migrations`
 --
 
@@ -31,6 +50,13 @@ CREATE TABLE `migrations` (
   `migration` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `batch` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `migrations`
+--
+
+INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
+(1, '2017_03_10_122942_create_crud_table', 1);
 
 -- --------------------------------------------------------
 
@@ -65,11 +91,18 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Zain Fikri Hanastyono', 'zainfikrih@gmail.com', '$2y$10$seZ0fOY5DyO5NFxWhwhdV..XsqsPRPYgZe3bGc1V1xTbvXUEonlcW', 'xzsqRc8M2I7MpwmC8R4os0iuYIw9j8wVq9FMjt8QcCM7ThIhIfszQbZS57Sh', '2017-03-08 00:07:03', '2017-03-08 00:08:24');
+(1, 'Zain Fikri Hanastyono', 'zainfikrih@gmail.com', '$2y$10$seZ0fOY5DyO5NFxWhwhdV..XsqsPRPYgZe3bGc1V1xTbvXUEonlcW', 'xzsqRc8M2I7MpwmC8R4os0iuYIw9j8wVq9FMjt8QcCM7ThIhIfszQbZS57Sh', '2017-03-08 00:07:03', '2017-03-08 00:08:24'),
+(2, 'Titus Christian', 'tituschristian98@gmail.com', '$2y$10$wFBOGQ31ZQqoEkgyH3MIrOkAvhdTsNxqquaTWN88CnyixnB0XXsgO', 'p2KbizYd6zHdbVgauz9dEdsaJf5uqWWFA7X0Gu0d9cV0nnEoRiBF9CpDLosQ', '2017-03-08 05:29:23', '2017-03-08 05:29:23');
 
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `crud`
+--
+ALTER TABLE `crud`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `migrations`
@@ -88,15 +121,20 @@ ALTER TABLE `users`
 --
 
 --
+-- AUTO_INCREMENT for table `crud`
+--
+ALTER TABLE `crud`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+--
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
