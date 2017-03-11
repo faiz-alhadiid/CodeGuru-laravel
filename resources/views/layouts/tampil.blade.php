@@ -2,7 +2,7 @@
 @section('content')
 
 <div class="section">
-	<div class="card-panel purple darken-3 white-text">Tutorial CRUD Laravel 5.2 dengan Materializecss</div>
+	<div class="card-panel purple darken-3 white-text">List Post</div>
 </div>
 
 <div class="section">

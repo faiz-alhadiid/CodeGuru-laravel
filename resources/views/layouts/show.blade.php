@@ -2,7 +2,7 @@
 @section('content')
 
 <div class="section">
-    <div class="card-panel purple darken-3 white-text">Tutorial CRUD Laravel 5.2 dengan Materializecss</div>
+    <div class="card-panel purple darken-3 white-text">List Post</div>
 </div>
 
 <div class="section">
@@ -19,7 +19,7 @@
 
             <a href="{{ url('edit', $data->id) }}" class="btn btn-flat purple darken-4 waves-effect waves-light white-text">Edit <i class="material-icons right">mode_edit</i></a> 
             
-            <a href="{{ url('delete', $data->id) }}" onclick="return confirm('Yakin mau hapus data ini sob?')" class="btn btn-flat red darken-4 waves-effect waves-light white-text">Delete <i class="material-icons right">delete</i></a>
+            <a href="{{ url('delete', $data->id) }}" onclick="return confirm('Yakin mau hapus data ini?')" class="btn btn-flat red darken-4 waves-effect waves-light white-text">Delete <i class="material-icons right">delete</i></a>
         </div>
     </div>
     @endforeach
@@ -31,7 +31,7 @@
     <a href="{{ url('add') }}" class="btn-floating btn-large red">
       <i class="large material-icons">add</i>
     </a>
-  </div>
+</div>
 
 {{ $datas->render() }}
 @endsection

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Gilacoding | CRUD Laravel 5.2 dengan Materializecss</title>
+	<title>CRUD | CodeGuru</title>
 	<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
