@@ -91,6 +91,7 @@
               <ul class="nav navbar-nav">
                 <li class="active"><a href="{{ url('/home') }}">Home</a></li>
                 <li><a href="{{ url('/courses') }}">Courses</a></li>
+                <li><a href="http://judgement.bccfilkomub.top">Exercises</a></li>
                 <li><a href="{{ url('/about') }}">About</a></li>
                 <li><a href="{{ url('/blog') }}">Blog</a></li>
                 <li><a href="{{ url('/contact') }}">Contact</a></li>

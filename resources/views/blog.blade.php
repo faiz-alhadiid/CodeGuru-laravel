@@ -51,6 +51,7 @@
 		      <ul class="nav navbar-nav">
 		        <li><a href="{{ url('/home') }}">Home</a></li>
 		        <li><a href="{{ url('/courses') }}">Courses</a></li>
+		        <li><a href="http://judgement.bccfilkomub.top">Exercises</a></li>
 		        <li><a href="{{ url('/about') }}">About</a></li>
 		        <li class="active"><a href="{{ url('/blog') }}">Blog</a></li>
 		        <li><a href="{{ url('/contact') }}">Contact</a></li>
@@ -81,14 +82,14 @@
 	<div class="container">
 		<div class="main row">
 			<div class="col-md-8 blog_left">
-				<h4><a href="single-page.html">Lorem Ipsum is simply text of the printingy </a></h4>
-				<a href="single-page.html"><img src="images/blog_pic1.jpg" alt="" class="blog_img img-responsive"/></a>
+				<h4><a href="#">Codeguru Blog's</a></h4>
+				<a href="http://filkom.ub.ac.id"><img src="images/filkom.png" alt="" class="blog_img img-responsive"/></a>
 				<div class="blog_list">
 					  <ul class="list-unstyled">
-						<li><i class="fa fa-calendar-o"></i><span>June 3, 2013</span></li>
+						<li><i class="fa fa-calendar-o"></i><span>March 18, 2017</span></li>
 						<li><a href="#"><i class="fa fa-comment"></i><span>Comments</span></a></li>
-				  		<li><a href="#"><i class="fa fa-user"></i><span>Admin</span></a></li>
-				  		<li><a href="#"><i class="fa fa-eye"></i><span>124 views</span></a></li>
+				  		<li><a href="https://github.com/faiz-alhadiid/CodeGuru-laravel"><i class="fa fa-user"></i><span>Admin</span></a></li>
+				  		<li><a href="#"><i class="fa fa-eye"></i><span>124.908 views</span></a></li>
 					  </ul>
 				</div>
 				<!--
@@ -113,37 +114,11 @@
 				-->
 			</div>
 			<div class="col-md-4 blog_right">
-				<!-- start social_network_likes -->
-					<div class="social_network_likes">
-				      		 <ul class="list-unstyled">
-				      		 	<li><a href="#" class="tweets"><div class="followers"><p><span>2k</span>Followers</p></div><div class="social_network"><i class="twitter-icon"> </i> </div></a></li>
-				      			<li><a href="#" class="facebook-followers"><div class="followers"><p><span>5k</span>Followers</p></div><div class="social_network"><i class="facebook-icon"> </i> </div></a></li>
-				      			<li><a href="#" class="email"><div class="followers"><p><span>7.5k</span>members</p></div><div class="social_network"><i class="email-icon"> </i></div> </a></li>
-				      			<li><a href="#" class="dribble"><div class="followers"><p><span>10k</span>Followers</p></div><div class="social_network"><i class="dribble-icon"> </i></div></a></li>
-				      			<div class="clear"> </div>
-				    		</ul>
-		          	</div>
-				<ul class="ads_nav list-unstyled">
-					<h4>Ads 125 x 125</h4>
-						<li><a href="#"><img src="images/ads_pic.jpg" alt=""> </a></li>
-						<li><a href="#"><img src="images/ads_pic.jpg" alt=""> </a></li>
-						<li><a href="#"><img src="images/ads_pic.jpg" alt=""> </a></li>
-						<li><a href="#"><img src="images/ads_pic.jpg" alt=""> </a></li>
-					<div class="clearfix"></div>
-				</ul>
 				<ul class="tag_nav list-unstyled">
 					<h4>tags</h4>
-						<li class="active"><a href="#">art</a></li>
-						<li><a href="#">awesome</a></li>
-						<li><a href="#">classic</a></li>
-						<li><a href="#">photo</a></li>
-						<li><a href="#">wordpress</a></li>
-						<li><a href="#">videos</a></li>
-						<li><a href="#">standard</a></li>
-						<li><a href="#">gaming</a></li>
-						<li><a href="#">photo</a></li>
-						<li><a href="#">music</a></li>
-						<li><a href="#">data</a></li>
+						<li class="active"><a href="#">JAVA</a></li>
+						<li><a href="#">HTML & CSS</a></li>
+						<li><a href="#">C++</a></li>
 						<div class="clearfix"></div>
 				</ul>
 				<div class="news_letter">
