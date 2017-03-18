@@ -124,17 +124,17 @@
             <div class="da-slide">
                 <h2>Interactive Learning</h2>
                 <p>Dengan Interactive Learning, proses pembelajaran akan menjadi lebih efisien.<span class="hide_text"> setiap orang dapat menulis sendiri code pada halaman yang telah disediakan serta dapat langsung dijalankan pada halaman teserbut</span></p>
-                <h3 class="da-link"><a href="{{ url('/single-page') }}" class="fa-btn btn-1 btn-1e">view more</a></h3>
+                <h3 class="da-link"><a href="{{ url('/about') }}" class="fa-btn btn-1 btn-1e">view more</a></h3>
             </div>
             <div class="da-slide">
                 <h2>Online Tutorial</h2>
                 <p>Setiap orang dapat belajar pemrograman dengan video yang telah di sediakan.<span class="hide_text">Video tutorial dapat di akses dari chanel BCC filkom</span></p>
-                <h3 class="da-link"><a href="{{ url('/single-page') }}" class="fa-btn btn-1 btn-1e">view more</a></h3>
+                <h3 class="da-link"><a href="{{ url('/about') }}" class="fa-btn btn-1 btn-1e">view more</a></h3>
             </div>
             <div class="da-slide">
                 <h2>Klinik Coding</h2>
                 <p>Proker yang ditujukan untuk membahas soal pemrograman agar lebih memahami materi sebelum ujian<span class="hide_text">Akan diberi pemberitahuan jika kelas untuk klinik coding sudah dibuka</span></p>
-                <h3 class="da-link"><a href="{{ url('/single-page') }}" class="fa-btn btn-1 btn-1e">view more</a></h3>
+                <h3 class="da-link"><a href="{{ url('/about') }}" class="fa-btn btn-1 btn-1e">view more</a></h3>
             </div>
             <!--
             <div class="da-slide">

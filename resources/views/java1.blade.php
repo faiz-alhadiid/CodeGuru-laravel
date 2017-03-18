@@ -121,13 +121,30 @@
 <div class="main_bg"><!-- start main -->
 	<div class="container">
 		<div class="about details row">
-			<h2>Bahasa Pemrograman Java</h2>
+			<h2>Pengenalan Pemrograman Java</h2>
 			<!--<img src="images/det_pic.jpg" alt="" class="img-responsive"/>-->
-			<h4>Luaran yang diharapkan</h4>
-			<p class="para">Dalam pembelajaran ini Anda akan dikenalkan konsep pemrograman dasar, termasuk object-oriented programming (OOP) dengan menggunakan Java. Anda akan membangun 7 Java proyek-seperti dasar kalkulator-untuk membantu Anda berlatih sepanjang jalan.</p>
-			<h4>Mengapa harus mempelajari Java?</h4>
-			<p class="para">Java adalah salah satu bahasa pemrograman yang paling populer di luar sana, terutama karena sangat serbaguna dan kompatibel. Java dapat digunakan untuk sejumlah besar hal, termasuk pengembangan perangkat lunak, aplikasi mobile, dan pengembangan sistem yang besar. Mengetahui Java membuka banyak pintu bagi Anda sebagai pengembang.</p>
-			<a href="{{ url('/java1') }}" class="fa-btn btn-1 btn-1e">Start Course</a>
+			<h4>Apa itu Java?</h4>
+			<p class="para">Java adalah bahasa pemrograman berorientasi objek murni yang dibuat berdasarkan kemampuan-kemampuan terbaik bahasa pemrograman objek sebelumnya (C++, Ada, Simula). Java diciptakan oleh James Gosling, developer dari Sun Microsystems pada tahun 1991.</p>
+			<h4>Karakteristik Java antara lain :</h4>
+			<ul class="para">
+				<li>Sederhana (Simple)</li>
+				<li>Berorientasi Objek (Object Oriented)</li>
+				<li>Terdistribusi (Distributed)</li>
+				<li>Interpreted</li>
+				<li>Aman (Secure)</li>
+				<li>Architecture Neutral</li>
+				<li>Portable</li>
+				<li>Performance</li>
+				<li>Dinamis</li>
+			</ul>
+			<h4>Macam-macam Java 2 Software Developer Kit (J2SDK) antara lain :</h4>
+			<ul class="para">
+				<li>J2SE (Java 2 Standard Edition)</li>
+				<li>J2EE (Java 2 Enterprise Edition)</li>
+				<li>J2ME (Java 2 Micro Edition)</li>
+			</ul>
+			<a href="{{ url('/java') }}" class="fa-btn btn-1 btn-1e">Back Course</a>
+			<a href="{{ url('/java2') }}" class="fa-btn btn-1 btn-1e">Next Course</a>
 		</div>
 	</div>
 </div><!-- end main -->

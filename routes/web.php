@@ -54,6 +54,14 @@ Route::get('/single-page', function () {
     return view('single-page');
 });
 
+Route::get('/java1', function () {
+    return view('java1');
+})-> middleware ('authenticated') ;
+
+Route::get('/java2', function () {
+    return view('java2');
+})-> middleware ('authenticated') ;
+
 Route::get('/index', 'CrudController@index');
 
 Route::get('/add', 'CrudController@create');

@@ -121,13 +121,16 @@
 <div class="main_bg"><!-- start main -->
 	<div class="container">
 		<div class="about details row">
-			<h2>Bahasa Pemrograman Java</h2>
+			<h2>Pengenalan Variabel Pada Java</h2>
 			<!--<img src="images/det_pic.jpg" alt="" class="img-responsive"/>-->
-			<h4>Luaran yang diharapkan</h4>
-			<p class="para">Dalam pembelajaran ini Anda akan dikenalkan konsep pemrograman dasar, termasuk object-oriented programming (OOP) dengan menggunakan Java. Anda akan membangun 7 Java proyek-seperti dasar kalkulator-untuk membantu Anda berlatih sepanjang jalan.</p>
-			<h4>Mengapa harus mempelajari Java?</h4>
-			<p class="para">Java adalah salah satu bahasa pemrograman yang paling populer di luar sana, terutama karena sangat serbaguna dan kompatibel. Java dapat digunakan untuk sejumlah besar hal, termasuk pengembangan perangkat lunak, aplikasi mobile, dan pengembangan sistem yang besar. Mengetahui Java membuka banyak pintu bagi Anda sebagai pengembang.</p>
-			<a href="{{ url('/java1') }}" class="fa-btn btn-1 btn-1e">Start Course</a>
+			<h4>Apa itu Variabel?</h4>
+			<p class="para">Variabel adalah item yang digunakan data untuk menyimpan pernyataan objek. Variable juga dibagi 2 yaitu: Variabel Reference dan Variabel Primitif.</p>
+			<h4>Variabel Primitif</h4>
+			<p class="para">Variabel primitif adalah variabel dengan tipe data primitif. Mereka menyimpan data dalam lokasi memori yang sebenarnya dimana variabel tersebut berada.</p>
+			<h4>Variabel Reference</h4>
+			<p class="para"> Variabel Reference adalah variabel yang menyimpan alamat dalam lokasi memori.  Yang menunjuk ke lokasi memori dimana data sebenarnya berada. Ketika Anda mendeklarasikan variabel pada class tertentu, Anda sebenarnya mendeklarasikan reference variable dalam bentuk objek dalam classnya tersebut.</p>
+			<a href="{{ url('/java1') }}" class="fa-btn btn-1 btn-1e">Back Course</a>
+			<a href="{{ url('/java3') }}" class="fa-btn btn-1 btn-1e">Next Course</a>
 		</div>
 	</div>
 </div><!-- end main -->
