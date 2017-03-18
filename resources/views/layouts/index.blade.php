@@ -2,12 +2,12 @@
 <html>
 <head>
 	<title>CRUD | CodeGuru</title>
-	<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
-	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+	<link href="/css/bootstrap.css" rel='stylesheet' type='text/css' />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
 	
-	<link rel="stylesheet" href="{{asset('css/materialize.min.css')}}">
+	<link rel="stylesheet" href="{{asset('/css/materialize.min.css')}}">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 	@section('css')

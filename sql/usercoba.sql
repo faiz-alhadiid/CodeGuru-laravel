@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 10, 2017 at 02:36 PM
+-- Generation Time: Mar 18, 2017 at 02:49 AM
 -- Server version: 10.1.21-MariaDB
--- PHP Version: 5.6.30
+-- PHP Version: 7.1.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -91,8 +91,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Zain Fikri Hanastyono', 'zainfikrih@gmail.com', '$2y$10$seZ0fOY5DyO5NFxWhwhdV..XsqsPRPYgZe3bGc1V1xTbvXUEonlcW', 'xzsqRc8M2I7MpwmC8R4os0iuYIw9j8wVq9FMjt8QcCM7ThIhIfszQbZS57Sh', '2017-03-08 00:07:03', '2017-03-08 00:08:24'),
-(2, 'Titus Christian', 'tituschristian98@gmail.com', '$2y$10$wFBOGQ31ZQqoEkgyH3MIrOkAvhdTsNxqquaTWN88CnyixnB0XXsgO', 'p2KbizYd6zHdbVgauz9dEdsaJf5uqWWFA7X0Gu0d9cV0nnEoRiBF9CpDLosQ', '2017-03-08 05:29:23', '2017-03-08 05:29:23');
+(2, 'Titus Christian', 'tituschristian98@gmail.com', '$2y$10$wFBOGQ31ZQqoEkgyH3MIrOkAvhdTsNxqquaTWN88CnyixnB0XXsgO', 'p2KbizYd6zHdbVgauz9dEdsaJf5uqWWFA7X0Gu0d9cV0nnEoRiBF9CpDLosQ', '2017-03-08 05:29:23', '2017-03-08 05:29:23'),
+(4, 'zain fikri hanastyono', 'onodalan@gmail.com', '$2y$10$rVDXJ5BKhmTJFioe/90pi.uk0bUiWujFSNs11MqVc3yTm/IN5DN2O', '8UKEK1uTe2lkf6Nc7Bm7jojoJKdSXTiWm6swmkOyURylmTlnGdHvwyKxDOuh', '2017-03-17 05:16:11', '2017-03-17 05:16:11');
 
 --
 -- Indexes for dumped tables
@@ -134,7 +134,7 @@ ALTER TABLE `migrations`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

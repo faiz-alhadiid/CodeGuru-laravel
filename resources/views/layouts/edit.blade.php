@@ -20,7 +20,7 @@
           <label for="textarea1">Isi</label>
         </div>
       </div>
-      <button type="submit" class="btn btn-flat pink accent-3 waves-effect waves-light white-text right">Submit <i class="material-icons right">send</i></button>
+      <button type="submit" class="btn btn-flat pink accent-3 waves-effect waves-light white-text right">SAVE<i class="material-icons right">send</i></button>
   </form>
 </div>
 

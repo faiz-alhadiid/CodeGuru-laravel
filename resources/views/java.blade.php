@@ -127,7 +127,7 @@
 			<p class="para">Dalam pembelajaran ini Anda akan dikenalkan konsep pemrograman dasar, termasuk object-oriented programming (OOP) dengan menggunakan Java. Anda akan membangun 7 Java proyek-seperti dasar kalkulator-untuk membantu Anda berlatih sepanjang jalan.</p>
 			<h4>Mengapa harus mempelajari Java?</h4>
 			<p class="para">Java adalah salah satu bahasa pemrograman yang paling populer di luar sana, terutama karena sangat serbaguna dan kompatibel. Java dapat digunakan untuk sejumlah besar hal, termasuk pengembangan perangkat lunak, aplikasi mobile, dan pengembangan sistem yang besar. Mengetahui Java membuka banyak pintu bagi Anda sebagai pengembang.</p>
-			<a href="{{ url('/java1') }}" class="fa-btn btn-1 btn-1e">Start Course</a>
+			<a href="{{ url('/read/14') }}" class="fa-btn btn-1 btn-1e">Start Course</a>
 		</div>
 	</div>
 </div><!-- end main -->
